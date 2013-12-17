@@ -1,0 +1,119 @@
+/*
+ *
+ * David Lettier (C) 2013.
+ *
+ * http://www.lettier.com/
+ *
+ * Style sheet for index.html.
+ *
+ */
+
+body
+{
+	
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	
+}
+
+.subdivision_text_box
+{
+
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: -30px;
+	top: 95px;
+	z-index: 3;
+	font-family: helvetica, serif;
+	font-size: 2em;
+	cursor: pointer;
+	color: #fff;
+	transform: rotate( 90deg );
+	-ms-transform: rotate( 90deg ); /* IE 9 */
+	-webkit-transform: rotate( 90deg ); /* Safari and Chrome */
+	
+}
+
+.up_button
+{
+	
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 3;
+	font-family: helvetica, serif;
+	font-size: 5em;
+	cursor: pointer;
+	color: #fff;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+
+.down_button
+{
+	
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: 10px;
+	top: 80px;
+	z-index: 3;
+	font-family: helvetica, serif;
+	font-size: 5em;
+	cursor: pointer;
+	color: #fff;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+
+.logo_box
+{
+	
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+	width: auto;
+	height: auto;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+
+.logo
+{
+	
+	margin: 0px;
+	border: 0px;
+	width: 454px;
+	height: 453px;
+	opacity: 0.8;
+	filter: alpha( opacity = 80 );
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
