@@ -26,13 +26,18 @@ body
 	left: -30px;
 	top: 95px;
 	z-index: 3;
-	font-family: helvetica, serif;
+	font-family: sans-serif;
 	font-size: 2em;
-	cursor: pointer;
 	color: #fff;
 	transform: rotate( 90deg );
 	-ms-transform: rotate( 90deg ); /* IE 9 */
 	-webkit-transform: rotate( 90deg ); /* Safari and Chrome */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	
 }
 
@@ -43,10 +48,10 @@ body
 	padding: 5px;
 	position: absolute;
 	left: 10px;
-	top: 10px;
+	top: 20px;
 	z-index: 3;
-	font-family: helvetica, serif;
-	font-size: 5em;
+	font-family: sans-serif;
+	font-size: 80px;
 	cursor: pointer;
 	color: #fff;
 	-webkit-touch-callout: none;
@@ -65,10 +70,10 @@ body
 	padding: 5px;
 	position: absolute;
 	left: 10px;
-	top: 80px;
+	top: 90px;
 	z-index: 3;
-	font-family: helvetica, serif;
-	font-size: 5em;
+	font-family: sans-serif;
+	font-size: 80px;
 	cursor: pointer;
 	color: #fff;
 	-webkit-touch-callout: none;
@@ -105,10 +110,38 @@ body
 	
 	margin: 0px;
 	border: 0px;
-	width: 454px;
-	height: 453px;
+	width: 300px;
+	height: 300px;
 	opacity: 0.8;
+	cursor: pointer;
 	filter: alpha( opacity = 80 );
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+
+.instruction_text_box
+{
+
+	margin: 0px;
+	padding: 10px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: auto;
+	height: auto;
+	z-index: 4;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #fff;
+	background: rgba( 10, 10, 10, 0.5 );
+	opacity: 1.0;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
